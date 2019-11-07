@@ -3,3 +3,4 @@ git clone https://github.com/curl/curl.git
 conda install -c conda-forge xeus-cling
 conda install -c anaconda curl
 conda install -c r r-curl
+gcc -o simple Curl.c -lcurl
