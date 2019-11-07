@@ -1,1 +1,3 @@
 conda install -c conda-forge xeus-cling
+conda install -c anaconda curl
+conda install -c r r-curl
