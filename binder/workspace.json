@@ -29,7 +29,7 @@
                   "type": "tab-area",
                   "currentIndex": 0,
                   "widgets": [
-                    "notebook:licurl.ipynb"
+                    "notebook:libcurl.ipynb"
                   ]
                 },
                 {
@@ -68,7 +68,7 @@
     },
     "notebook:demo.ipynb": {
       "data": {
-        "path": "licurl.ipynb",
+        "path": "libcurl.ipynb",
         "factory": "Notebook"
       }
     },
