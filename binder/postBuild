@@ -6,4 +6,3 @@ conda install -c anaconda curl
 conda install -c r r-curl
 conda install -c conda-forge curl
 gcc -o simple Curl.c -lcurl
-jupyter lab workspaces import binder/workspace.json
