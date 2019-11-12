@@ -1,9 +1,8 @@
 #!/bin/bash
 
-#conda install -c conda-forge jupyterlab
+conda install -c conda-forge jupyterlab
 conda install -c conda-forge xeus-cling
 conda install -c conda-forge curl
-jupyter notebook --notebook-dir='/srv/conda/envs/notebook'
-jupyter lab workspaces import binder/workspace.json
 
 gcc -o simple Curl.c -lcurl
+jupyter lab workspaces import binder/workspace.json
