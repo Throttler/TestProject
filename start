@@ -1,2 +1,0 @@
-gcc -o simple Curl.c -lcurl
-jupyter lab workspaces import binder/workspace.json
