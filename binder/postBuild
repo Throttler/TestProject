@@ -1,5 +1,4 @@
 #!/bin/bash
-jupyter notebook
 jupyter lab workspaces import binder/workspace.json
 #conda install -c conda-forge jupyterlab
 conda install -c conda-forge xeus-cling
