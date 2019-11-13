@@ -11,18 +11,28 @@
           ],
           "children": [
             {
-              "type": "tab-area",
-              "currentIndex": 0,
-              "widgets": [
-                "markdownviewer-widget:README.md"
+              "type": "split-area",
+              "orientation": "vertical",
+              "sizes": [
+                0.5,
+                0.5
+              ],
+              "children": [
+                {
+                  "type": "tab-area",
+                  "currentIndex": 0,
+                  "widgets": [
+                    "markdownviewer-widget:README.md"
+                  ]
+                },
+                {
+                  "type": "tab-area",
+                  "currentIndex": 0,
+                  "widgets": [
+                    "terminal:1"
+                  ]
+                }
               ]
-            },
-            {
-               "type": "tab-area",
-               "currentIndex": 0,
-               "widgets": [
-                 "terminal:1"
-               ]
             }
           ]
         },
