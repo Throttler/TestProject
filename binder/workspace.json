@@ -19,19 +19,12 @@
             },
             {
               "type": "split-area",
-              "orientation": "vertical",
+              "orientation": "horizontal",
               "sizes": [
                 0.5,
                 0.5
               ],
               "children": [
-                {
-                  "type": "tab-area",
-                  "currentIndex": 0,
-                  "widgets": [
-                    "notebook:libcurl.ipynb"
-                  ]
-                },
                 {
                   "type": "tab-area",
                   "currentIndex": 0,
