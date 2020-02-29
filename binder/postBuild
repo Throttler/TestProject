@@ -1,6 +1,7 @@
 #!/bin/bash
 
 conda install -c conda-forge xeus-cling
+conda install -c conda-forge matplotlib
 
 gcc -o simple Curl.c -lcurl
 jupyter lab workspaces import binder/workspace.json
